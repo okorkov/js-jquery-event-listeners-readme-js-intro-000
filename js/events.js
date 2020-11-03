@@ -6,11 +6,11 @@ function frameIt(){
   $( 'img' ).addClass( "tasty" );
 }
 function pressIt(){
-  $ ("#typing").on('keydown', function(key){
+  $("input").on("keydown", function(e){
     if (e.which === 71){
-      alert("G was pressed.");
+      window.alert("G was pressed.");
     }
-  })
+  });
 }
 function submitIt(){
   alert("Your form is going to be submitted now.");
