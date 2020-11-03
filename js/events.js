@@ -6,9 +6,7 @@ function frameIt(){
   $( 'img' ).addClass( "tasty" );
 }
 function pressIt(){
-  
-    alert('G was pressed');
-  
+  $ ("form")
 }
 function submitIt(){
   alert("Your form is going to be submitted now.");
