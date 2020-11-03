@@ -8,7 +8,7 @@ function frameIt(){
 function pressIt(){
   $ ("form").keydown(function(key){
     if (e.which === 71){
-      
+      alert("G was pressed.");
     }
   })
 }
