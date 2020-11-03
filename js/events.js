@@ -5,8 +5,9 @@ function getIt(){
 function frameIt(){
   $( 'img' ).addClass( "tasty" );
 }
-function pressIt(){
-  if( $("form") === 71){
+function pressIt(event){
+   var key = (event.keyCode ? event.keyCode : event.which); 
+  if( key === 71){
     alert('G was pressed');
   }
 }
