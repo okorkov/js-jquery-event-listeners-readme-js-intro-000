@@ -7,7 +7,7 @@ function frameIt(){
 }
 function pressIt(event){
    var key = (event.keyCode ? event.keyCode : event.which); 
-  if( key === 71){
+  if( event === 71){
     alert('G was pressed');
   }
 }
