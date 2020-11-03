@@ -5,10 +5,10 @@ function getIt(){
 function frameIt(){
   $( 'img' ).addClass( "tasty" );
 }
-function pressIt(){
-  
+function pressIt(key){
+  if(key === 71){
     alert('G was pressed');
-  
+  }
 }
 function submitIt(){
   alert("Your form is going to be submitted now.");
