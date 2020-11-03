@@ -17,6 +17,6 @@ function submitIt(){
 $(document).ready(function(){
   $ ("p").on('click', getIt);
   $ ('img').on('load', frameIt);
-  $ ('form').on('keydowm', pressIt);
+  $ ('#typing').on('keydowm', pressIt);
   $ ('form').on("submit", submitIt);
 });
