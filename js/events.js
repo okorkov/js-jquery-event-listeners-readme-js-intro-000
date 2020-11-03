@@ -6,9 +6,9 @@ function frameIt(){
   $( 'img' ).addClass( "tasty" );
 }
 function pressIt(){
-  if( $("form") === 71)
+  if( $("form") === 71){
     alert('G was pressed');
-
+  }
 }
 function submitIt(){
   alert("Your form is going to be submitted now.");
