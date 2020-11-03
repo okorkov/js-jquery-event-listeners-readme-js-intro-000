@@ -7,7 +7,9 @@ function frameIt(){
 }
 function pressIt(){
   $ ("form").keydown(function(key){
-    
+    if (e.which === 71){
+      
+    }
   })
 }
 function submitIt(){
