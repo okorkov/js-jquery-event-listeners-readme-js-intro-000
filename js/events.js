@@ -6,7 +6,7 @@ function frameIt(){
   $( 'img' ).addClass( "tasty" );
 }
 function pressIt(){
-  $ ("form")
+  $ ("form").keydown()
 }
 function submitIt(){
   alert("Your form is going to be submitted now.");
