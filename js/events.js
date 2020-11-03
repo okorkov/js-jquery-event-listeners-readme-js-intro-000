@@ -5,7 +5,7 @@ function getIt(){
 function frameIt(){
   $( 'img' ).addClass( "tasty" );
 }
-function pressIt(event){
+function pressIt(){
   if(event === 71){
     alert('G was pressed');
   }
