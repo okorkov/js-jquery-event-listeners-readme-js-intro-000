@@ -6,7 +6,7 @@ function frameIt(){
   $( 'img' ).addClass( "tasty" );
 }
 function pressIt(){
-  $ ("form").keydown(function(key){
+  $ ("#typing").keydown(function(key){
     if (e.which === 71){
       alert("G was pressed.");
     }
