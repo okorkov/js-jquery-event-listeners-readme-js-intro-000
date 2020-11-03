@@ -6,7 +6,7 @@ function frameIt(){
   $( 'img' ).addClass( "tasty" );
 }
 function pressIt(key){
-  if(key === 71){
+  if(key.which === 71){
     alert('G was pressed');
   }
 }
